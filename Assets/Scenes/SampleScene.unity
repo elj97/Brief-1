@@ -619,7 +619,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-28944
+  m_Name: pb_Mesh13910
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -970,7 +970,6 @@ GameObject:
   - component: {fileID: 103989898}
   - component: {fileID: 103989897}
   - component: {fileID: 103989896}
-  - component: {fileID: 103989895}
   - component: {fileID: 103989894}
   m_Layer: 0
   m_Name: moving platform (3)
@@ -1008,21 +1007,6 @@ MonoBehaviour:
   axis: 1
   moveDistance: 10
   moveSpeed: 1
---- !u!114 &103989895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103989892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e3558273faed0458cba1625212e82b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axis: 0
-  moveDistance: 0
-  moveSpeed: 0
 --- !u!64 &103989896
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3464,7 +3448,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 997612980}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &373948064
 BoxCollider:
@@ -4227,7 +4211,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-28954
+  m_Name: pb_Mesh14072
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6063,7 +6047,6 @@ GameObject:
   - component: {fileID: 783972808}
   - component: {fileID: 783972807}
   - component: {fileID: 783972806}
-  - component: {fileID: 783972811}
   - component: {fileID: 783972812}
   m_Layer: 0
   m_Name: moving platform
@@ -6359,23 +6342,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 997612980}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &783972811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 783972805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e3558273faed0458cba1625212e82b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axis: 0
-  moveDistance: 0
-  moveSpeed: 0
 --- !u!114 &783972812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7199,7 +7167,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 997612980}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &838277850
 Rigidbody:
@@ -7414,7 +7382,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-31736
+  m_Name: pb_Mesh14038
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7894,7 +7862,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-111254
+  m_Name: pb_Mesh14202
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8144,9 +8112,8 @@ GameObject:
   - component: {fileID: 991246120}
   - component: {fileID: 991246119}
   - component: {fileID: 991246118}
-  - component: {fileID: 991246117}
   m_Layer: 0
-  m_Name: moving platform (2)
+  m_Name: cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8164,23 +8131,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 997612980}
-  m_RootOrder: 16
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &991246117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 991246115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16e3558273faed0458cba1625212e82b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axis: 0
-  moveDistance: 0
-  moveSpeed: 0
 --- !u!64 &991246118
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -8495,11 +8447,11 @@ Transform:
   - {fileID: 707572029}
   - {fileID: 755864580}
   - {fileID: 1239461356}
+  - {fileID: 991246116}
   - {fileID: 373948063}
   - {fileID: 838277849}
   - {fileID: 783972810}
   - {fileID: 1194640450}
-  - {fileID: 991246116}
   - {fileID: 103989893}
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -9379,7 +9331,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-142650
+  m_Name: pb_Mesh13816
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9966,7 +9918,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 997612980}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!114 &1194640451
 MonoBehaviour:
@@ -9981,8 +9933,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
-  moveDistance: 0
-  moveSpeed: 0
+  moveDistance: 20
+  moveSpeed: 1
 --- !u!64 &1194640452
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18238,7 +18190,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-116032
+  m_Name: pb_Mesh14130
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

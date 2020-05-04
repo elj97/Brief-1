@@ -140,7 +140,7 @@ public class PlayerControllerThatLevelsUp : MonoBehaviour
             this.GetComponent<Rigidbody>().velocity += Vector3.up * this.currentJumpHeight;
         }
 
-        // Win
+        
         if (level > 3)
         {
             Debug.Log("Win");
